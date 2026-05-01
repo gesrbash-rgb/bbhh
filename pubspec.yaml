@@ -1,0 +1,16 @@
+name: video_ai_offline_pro
+
+environment:
+  sdk: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^6.1.1
+  video_player: ^2.8.2
+  path_provider: ^2.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/
