@@ -1,0 +1,22 @@
+video_ai_offline_pro/
+├─ README.md
+├─ .gitignore
+├─ pubspec.yaml
+├─ lib/
+│  ├─ main.dart
+│  ├─ services/
+│  │  ├─ stt_service.dart
+│  │  ├─ translate_service.dart
+│  │  ├─ summary_service.dart
+│  │  ├─ subtitle_service.dart
+├─ assets/
+│  └─ models/
+│     ├─ ggml-tiny-q5.bin
+│     ├─ marian.onnx
+│     ├─ t5.onnx
+├─ android/
+│  └─ app/src/main/jniLibs/arm64-v8a/
+│     ├─ libwhisper.so
+│     ├─ libonnxruntime.so
+│     ├─ libffmpegkit.so
+├─ .github/workflows/build.yml
