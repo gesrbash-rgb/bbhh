@@ -1,0 +1,17 @@
+# Video AI Offline Pro
+
+تطبيق Flutter يعمل بدون إنترنت:
+- تحويل الفيديو إلى نص
+- ترجمة
+- تلخيص
+- ترجمة متزامنة (Subtitles)
+
+## تشغيل
+flutter pub get
+flutter run
+
+## بناء APK
+flutter build apk --release
+
+## تحميل APK
+من GitHub Actions
